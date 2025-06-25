@@ -1,0 +1,35 @@
+[{
+    "id" : 1 ,
+    "tittle" : "melon",
+    "price" : 1000 ,
+    "descrition" : "melon maduro",
+    "image" : "melon.jpg",
+    "stock" : 10 
+},
+
+{
+    "id" : 2 ,
+    "tittle" : "pera",
+    "price" : 1100 ,
+    "descrition" : "pera madura",
+    "image" : "pera.jpg",
+    "stock" : 8 
+},
+
+{
+    "id" : 3 ,
+    "tittle" : "cereza",
+    "price" : 1200 ,
+    "descrition" : "cereza rojita",
+    "image" : "cereza.jpg",
+    "stock" : 5 
+},
+
+{
+    "id" : 4 ,
+    "tittle" : "frutilla",
+    "price" : 1000 ,
+    "descrition" : "frutilla roja",
+    "image" : "frutilla.jpg",
+    "stock" : 6 
+}]
