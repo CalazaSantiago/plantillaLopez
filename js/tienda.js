@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 card.innerHTML = `
                 <div class="top">
                         <img src="images/productos/uvas.jpg" alt="">
-                        <p class="titProd">PRODUCTO 6</p>
+                        <p class="titProd">${item.tittle}</p>
                         <p class="descrpcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus natus</p>
                         <a href="opiniones.html" class="resenias">ver reseñas</a>
                     </div>
@@ -44,3 +44,11 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
     })
+
+
+    //evento boton agregar 
+    card.querySelector("#addcarrito").onclick = () => {
+        agregarAlCarrito(item)
+    }
+
+    
